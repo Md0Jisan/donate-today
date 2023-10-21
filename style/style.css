@@ -45,7 +45,7 @@
     outline: 2px solid rgb(14, 14, 14);
     background-color: rgb(0, 1, 0);
     color: antiquewhite;
-    box-shadow:3px 5px 10px #707070;
+    box-shadow:3px 5px 10px #000000;
 }
 /* main start style */
 .b-head{
@@ -136,7 +136,7 @@ hr{
 .bp-start{
     display: flex;
     gap: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 0px;
     
 }
 .box-plan{
@@ -179,4 +179,132 @@ hr{
     margin-right: 50px;
     background-color:bisque ;
    
+}
+.part4{
+    display: flex;
+    background-image: url(../images/donation10.jpg);
+    height: 800px;
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 550px;
+    margin-right: 110px;
+}
+.p4-h{
+    font-size: 40px;
+    padding-top: 220px;
+    margin-left: 50px;
+    margin-right: 670px;
+}
+.p4-p{
+    margin-left: 50px;
+    margin-right: 670px;
+    padding-top: 20px;
+    color: #707070;
+}
+.how-btn{
+    color: #fefefe;
+    background-color: rgb(127, 159, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 190px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.how-btn:hover{
+    color: rgb(16, 16, 16);
+    background-color: #c91e1e;
+}
+.how-btn:active{
+    color: #fefefe;
+    background-color: rgb(127, 159, 255);
+    box-shadow: #000000 2px 3px 10px;
+}
+.last-p4{
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 470px;
+    background-size: 550px;
+    display: flex;
+    margin-left: 50px;
+}
+.lp4-h{
+    text-align: right;
+    margin-right: 150px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+.lp4-p{
+    
+    margin-left: 650px;
+    margin-right: 200PX;
+    padding-top: 20px;
+    color: #707070;
+}
+.how-btns{
+    margin-left: 650px;
+    margin-top: 40px;
+    color: #fefefe;
+    background-color: rgb(127, 159, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 190px;
+    height: 60px;
+    font-size: 18px;
+}
+.how-btns:hover{
+    color: rgb(16, 16, 16);
+    background-color: #c91e1e;
+}
+.how-btns:active{
+    color: #fefefe;
+    background-color: rgb(127, 159, 255);
+    box-shadow: #000000 2px 3px 10px;
+}
+.f-h{
+    text-align: center;
+    font-size: 40px;
+}
+.f-p{
+    text-align: center;
+    color: #707070;
+    margin-top: 25px;
+    margin-left: 360px;
+    margin-right: 360px;
+    margin-bottom: 50px;
+}
+.the{
+    background-color:antiquewhite;
+    height: 200px;
+    width: ;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-bottom: 500px;
+}
+.the-end{
+    display: block;
+}
+.end{
+    text-align: center;
+    padding: 100px;
+}
+.end-btn{
+    background-color: rgb(236, 13, 13);
+    color: #fefefe;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+}
+.end-btn:hover{
+    color: #fffcfc;
+    background-color: rgb(35, 9, 121);
+}
+.end-btn:active{
+    box-shadow: #707070 4px 7px 10px;
+    cursor: none;
+}
+input{
+    
 }
