@@ -281,7 +281,7 @@ hr{
     width: ;
     margin-left: 280px;
     margin-right: 280px;
-    margin-bottom: 500px;
+    margin-bottom: 150px;
 }
 .the-end{
     display: block;
@@ -296,6 +296,7 @@ hr{
     height: 40px;
     width: 150px;
     font-size: 20px;
+    border-radius: 5px;
 }
 .end-btn:hover{
     color: #fffcfc;
@@ -306,5 +307,26 @@ hr{
     cursor: none;
 }
 input{
+    height: 30px;
+    width: 210px;
+    background-color: #ecebeb;
+    border-radius: 5px;
+}
+.be{
+    height: 200px;
+    background-color: rgb(3, 3, 26);
     
+}
+.humble{
+    padding-top: 70px;
+    text-align: center;
+    color:crimson;
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+}
+.be-h{
+    text-align: center;
+    font-size: 15px;
+    color: lightblue;
+    padding-top: 20px;
 }
